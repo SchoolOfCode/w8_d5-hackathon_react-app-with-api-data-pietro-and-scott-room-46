@@ -25,7 +25,7 @@ function Card({ id }) {
   return (
     <div>
       <p>{heroName}</p>
-      <img src={cardImage} alt={"A picture of the superhero!"} />
+      <img src={cardImage} alt={"the superhero!"} />
       <p>
         {Object.keys(statsState)[0]} : {statsState.intelligence}
       </p>
